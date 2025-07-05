@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+venv/
+env/
+myenv/
+.venv/
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/
+chroma_db/

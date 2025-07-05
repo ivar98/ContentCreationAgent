@@ -1,0 +1,32 @@
+# Core LangChain Framework
+# These packages provide the main orchestration and graph capabilities.
+langchain
+langchain-core
+langchain-community
+langgraph
+
+# LLM & Tool Integrations
+# For connecting to Google Gemini models.
+langchain-google-genai
+# For the Tavily web search tool (replaces the old langchain_community version).
+langchain-tavily
+
+# Vector Store & Embeddings
+# For the ChromaDB vector store integration (replaces the old langchain_community version).
+langchain-chroma
+# For using local Hugging Face embedding models (replaces the old langchain_community version).
+langchain-huggingface
+# The underlying vector database library.
+chromadb
+# Powers the local embedding model (e.g., 'all-MiniLM-L6-v2').
+sentence-transformers
+# A required dependency for sentence-transformers and deep learning models.
+torch
+
+# Application Framework
+# For building the web user interface.
+streamlit
+
+# Utilities
+# For loading environment variables from a .env file.
+python-dotenv
