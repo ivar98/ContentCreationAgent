@@ -22,7 +22,6 @@ class ContentCreationState(TypedDict):
 research_prompt = ChatPromptTemplate.from_messages([
     ("system", "You are a world-class researcher. Your goal is to find diverse and interesting information on a given topic. You are not a writer. Your sole job is to research. Break the topic down into 3-5 sub-queries and use your search tool for each. Synthesize the results into a list of key points and facts. Do not write paragraphs or a narrative."),
     ("human", "Research the topic: {topic}"),
-    # This is the crucial part you are missing!
     MessagesPlaceholder(variable_name="agent_scratchpad"),
 ])
 researcher_agent = create_tool_calling_agent(llm, [tavily_tool], research_prompt)
