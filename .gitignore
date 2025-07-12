@@ -17,3 +17,5 @@ myenv/
 # Streamlit
 .streamlit/
 chroma_db/
+
+ivar98-contentcreationagent.txt

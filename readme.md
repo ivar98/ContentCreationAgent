@@ -1,19 +1,10 @@
-Of course. Creating a clear, welcoming, and easy-to-follow README is one of the most important parts of any open-source project. The goal is to empower everyone, regardless of their technical background, to try out the application.
-
-Here is a comprehensive `README.md` file designed for that purpose. It uses simple language, provides step-by-step instructions with clear commands, and explains *why* each step is necessary.
-
----
-
 # 🤖 Concept to Creation Content Assistant
 
 Ever stared at a blank page, not knowing where to start on your next blog post or video script? This project is your own personal AI creative team, designed to take a simple topic and turn it into a fully researched and polished piece of content.
 
 You give it an idea, and a team of AI agents—a Researcher, a Writer, and a Critic—work together to build a complete content plan for you. Best of all, it learns your unique writing style over time!
 
-<br>
 
-![App Demo GIF](https://github.com/user-attachments/assets/dd38f8f2-2bb8-4c8d-8422-e42504227f4d)
-*(This GIF shows the app in action: generating a script, then revising it based on user feedback.)*
 
 ## ✨ Features
 
